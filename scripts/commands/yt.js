@@ -21,11 +21,11 @@ start: async function({ nayan, events, args }) {
     const fs = require("fs-extra")
   const { ytdown, ndown, tikdown, twitterdown } = require("nayan-media-downloader")
     const { messageID, threadID } = events;
-  if (!args[0]) return nayan.sendMessage("[ ! ] Input link.", threadID, messageID);
+  if (!args[0]) return nayan.sendMessage("এই লিংক তোর বাপ দিবে ? লিংক দে ", threadID, messageID);
 
 
     let np = args.join(" ");
-   if (!args[1]) nayan.sendMessage(`𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎 𝐅𝐎𝐑 𝐘𝐎𝐔\n\n𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝟖...`, events.threadID, (err, info) => setTimeout(() => { nayan.unsendMessage(info.messageID) }, 20000));
+   if (!args[1]) nayan.sendMessage(`🥶 দারাও ভাতিজা নামাচ্ছি নামাতে দেও  𝐕𝐈𝐃𝐄𝐎 𝐅𝐎𝐑 𝐘𝐎𝐔\n\n𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝟖...`, events.threadID, (err, info) => setTimeout(() => { nayan.unsendMessage(info.messageID) }, 20000));
 
  try {
     const res = await ytdown(`${np}`);
@@ -43,7 +43,7 @@ start: async function({ nayan, events, args }) {
     allimage.push(fs.createReadStream(__dirname + "/cache/fbvideo.mp4"));
 
     {
-        msg += `✅Downloaded Successfully\n🔰TITLE : ${ti}`
+        msg += `✅5 টাকা দে এখন ফ্রি তে ডাউনলোড করে দিছি শালা  Successfully\n🔰TITLE : ${ti}`
     }
 
     return nayan.reply({
