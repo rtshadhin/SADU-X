@@ -27,7 +27,7 @@ const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
   
 var callback = () => api.sendMessage({body:`
---------------------------------------------
+------------SADU X BOT------------
 𝐍𝐚𝐦𝐞       : SHARAF NAWER SHADHIN 
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : SHARAF NAWER SHADHIN 
 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧   : Islam
@@ -35,13 +35,13 @@ var callback = () => api.sendMessage({body:`
 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: Natore 
 𝐆𝐞𝐧𝐝𝐞𝐫.   : Boys ❌ Man ✅
 𝐀𝐠𝐞           : 14+
-𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : Mingle 
+𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 2EX ☹️
 𝐖𝐨𝐫𝐤        : Student 
 𝐆𝐦𝐚𝐢𝐥       : rtshadhin@gmail.com
 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: wa.me/+8801741298129
 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : Janina 
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/linkcopymarao`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
-      return request(encodeURI(`https://graph.facebook.com/100000959749712/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
+      return request(encodeURI(`https://graph.facebook.com/100051192304966/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    };
