@@ -1,13 +1,13 @@
 ## ABOUT ME
 
-name : ```Nayan Developer```</br>
-age : ```20```</br>
-link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
+name : ```SADU Developer```</br>
+age : ```14```</br>
+link : [facebook](https://www.facebook.com/linkcopymarao).</br>
 
 ## CREDITS
 
 original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```</br>
-modified : [NAYAN](https://replit.com/@xaikonayan/NAYAN-BOT?v=1) by ```Nayan Developer```
+modified : [NAYAN]() by ```SHADHIN Developer```
 
 ## CONFIG AND CUSTOM
 
